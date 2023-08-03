@@ -19,13 +19,13 @@ class TestClass:
     @qase.id(2)
     @qase.title("Sign up")
     def test_sign_up(self):
-        with qase.step(1):
+        with qase.step('Open "Sign Up" page: https://qase.io/signup'):
             print()
-        with qase.step(2):
-            print()
+        with qase.step('Fill form with the following credentials:'):
+            print('Click Submit button')
         with qase.step(3):
-            print()
+            print('Open email application')
         with qase.step(4):
-            print()
+            print('Confirm account registration by clicking on the confirm button from the email')
         with qase.step(5):
             assert 1 != 1, "Assertion failed to to unexpected value"
