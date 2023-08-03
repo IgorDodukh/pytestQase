@@ -1,9 +1,9 @@
 from qaseio.pytest import qase
 
 
+@qase.suite("Authorization")
 class TestClass:
 
-    @qase.suite("Authorization")
     @qase.id(1)
     @qase.title("Authorization")
     def test_authorization(self):
@@ -16,7 +16,6 @@ class TestClass:
         with qase.step('Click on the "Login" button'):
             assert 1 == 1, ""
 
-    @qase.suite("Authorization")
     @qase.id(2)
     @qase.title("Sign up")
     def test_sign_up(self):
