@@ -25,7 +25,7 @@
             "id": 1
         },
 		"defect": true,
-		"project": "YOUR_PROJECT_CODE",
+		"project": "DEMO",
 		"chunk": 200
 	},
 	"framework": {
