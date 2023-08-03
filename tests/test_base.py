@@ -6,11 +6,9 @@ class TestClass:
     @qase.id(1)
     @qase.title("Authorization")
     @qase.fields(
-        ("severity", "critical"),
+        ("severity", "blocker"),
         ("priority", "hight"),
         ("layer", "e2e"),
-        ("description", "Try to login in Qase TestOps using login and password"),
-        ("description", "*Precondition 1*. Markdown is supported."),
     )
     def test_authorization(self):
         assert 1 == 1, ""
@@ -18,11 +16,9 @@ class TestClass:
     @qase.id(2)
     @qase.title("Sign up")
     @qase.fields(
-        ("severity", "critical"),
+        ("severity", "blocker"),
         ("priority", "hight"),
         ("layer", "e2e"),
-        ("description", "Sign up user"),
-        ("description", "*Precondition 1*. Markdown is supported."),
     )
     def test_sign_up(self):
         assert 1 != 1, "Assertion failed to to unexpected value"
