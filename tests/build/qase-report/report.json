@@ -1,0 +1,47 @@
+{
+    "title": "Test run",
+    "execution": {
+        "start_time": 1691058127.2181702,
+        "end_time": 1691058127.2471669,
+        "duration": 28,
+        "cumulative_duration": 21
+    },
+    "stats": {
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0,
+        "broken": 0,
+        "muted": 0,
+        "total": 2
+    },
+    "results": [
+        {
+            "id": "2ebbcdff-062c-4e65-add5-05ae10de3f17",
+            "title": "Authorization",
+            "status": "passed",
+            "duration": 1,
+            "thread": "79884-MainThread"
+        },
+        {
+            "id": "12f59a58-4e48-4359-b07e-1e70817e1f74",
+            "title": "Sign up",
+            "status": "failed",
+            "duration": 20,
+            "thread": "79884-MainThread"
+        }
+    ],
+    "threads": [
+        "79884-MainThread"
+    ],
+    "suites": [],
+    "environment": null,
+    "host_data": {
+        "system": "Darwin",
+        "node": "MacBook-Pro.local",
+        "release": "22.5.0",
+        "version": "Darwin Kernel Version 22.5.0: Thu Jun  8 22:22:19 PDT 2023; root:xnu-8796.121.3~7/RELEASE_ARM64_T8103",
+        "machine": "arm64",
+        "python": "3.10.5.final.0",
+        "pip": "23.1.2"
+    }
+}
