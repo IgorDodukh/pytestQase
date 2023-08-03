@@ -17,8 +17,8 @@
 			"host": "qase.io"
 		},
 		"run": {
-            "id": 2,
-			"title": "Test run title",
+            "id": 3,
+			"title": "Staging Regression",
 			"complete": true
 		},
         "plan": {
@@ -36,5 +36,5 @@
 			}
 		}
 	},
-	"environment": "local"
+	"environment": "staging"
 }
