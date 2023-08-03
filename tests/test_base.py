@@ -20,4 +20,13 @@ class TestClass:
     @qase.id(2)
     @qase.title("Sign up")
     def test_sign_up(self):
-        assert 1 != 1, "Assertion failed to to unexpected value"
+        with qase.step(''):
+            print()
+        with qase.step(''):
+            print()
+        with qase.step(''):
+            print()
+        with qase.step(''):
+            print()
+        with qase.step(''):
+            assert 1 != 1, "Assertion failed to to unexpected value"
