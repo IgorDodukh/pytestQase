@@ -8,7 +8,7 @@ class TestClass:
     @qase.title("Authorization")
     @qase.fields(
         ("priority", "hight"),
-        ("layer", "E2E"),
+        ("layer", "e2e")
     )
     def test_authorization(self):
         assert 1 == 1, ""
@@ -18,7 +18,7 @@ class TestClass:
     @qase.title("Sign up")
     @qase.fields(
         ("priority", "hight"),
-        ("layer", "E2E"),
+        ("layer", "e2e")
     )
     def test_sign_up(self):
         assert 1 != 1, "Assertion failed to to unexpected value"
