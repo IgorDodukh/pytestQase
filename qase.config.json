@@ -16,13 +16,8 @@
 			"token": "666d26edc8fcd1fbe8c32acfc942e86a2eedf4bd5d17292e9c65483384bcda89",
 			"host": "qase.io"
 		},
-		"run": {
-            "id": 3,
-			"title": "Staging Regression",
-			"complete": true
-		},
         "plan": {
-            "id": 1
+            "id": 3
         },
 		"defect": true,
 		"project": "DEMO",
