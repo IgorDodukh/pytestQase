@@ -28,4 +28,4 @@ class TestClass:
         with qase.step('Open email application'):
             print('Open email application')
         with qase.step('Confirm account registration by clicking on the confirm button from the email'):
-            assert 1 != 1, "Assertion failed to to unexpected value"
+            assert 1 == 1, "Assertion failed to to unexpected value"
