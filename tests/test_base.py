@@ -29,3 +29,15 @@ class TestClass:
             print('Open email application')
         with qase.step('Confirm account registration by clicking on the confirm button from the email'):
             assert 1 == 1, "Assertion failed to to unexpected value"
+
+    @qase.id(3)
+    @qase.title("Pwd rst")
+    def test_pwd_rst(self):
+        with qase.step("do this"):
+            print("complete step 1")
+        with qase.step('do that'):
+            print("complete step 2")
+        with qase.step('check it'):
+            print("complete step 3")
+        with qase.step('got this'):
+            assert 1 != 1, "failed assertion validation"
