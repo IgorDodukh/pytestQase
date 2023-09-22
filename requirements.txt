@@ -1,2 +1,10 @@
 pytest==7.4.0
-qase-pytest==5.0.2
+python-zephyr==0.0.7
+zephyr-python-api==0.0.3
+fd-test-rail==1.0.0
+allure-pytest==2.13.2
+prometheus-client==0.17.1
+python-dotenv==1.0.0
+requests==2.31.0
+decohints>=1.0.7
+tabulate
