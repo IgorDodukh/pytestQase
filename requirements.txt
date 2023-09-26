@@ -1,2 +1,3 @@
 pytest==7.4.0
 qase-pytest==5.0.2
+allure-pytest==2.13.2

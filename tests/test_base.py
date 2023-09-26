@@ -1,22 +1,25 @@
+import allure
 from qaseio.pytest import qase
 
+from steps import TestSteps
 
+
+@allure.suite
 @qase.suite("Authorization")
 class TestClass:
 
     @qase.id(1)
+    @allure.testcase
     @qase.title("Authorization")
     def test_authorization(self):
-        with qase.step("Go to sign up page https://qase.io/login"):
-            print("complete step 1")
-        with qase.step('Fill the form with login "test" and password "test"'):
-            print("complete step 2")
-        with qase.step('Check "remember me" checkbox'):
-            print("complete step 3")
-        with qase.step('Click on the "Login" button'):
-            assert 1 == 1, ""
+        steps = TestSteps()
+        steps.step_one()
+        steps.step_two()
+        steps.step_three()
+        steps.step_four()
 
     @qase.id(2)
+    @allure.testcase
     @qase.title("Sign up")
     def test_sign_up(self):
         with qase.step('Open "Sign Up" page: https://qase.io/signup'):
@@ -31,6 +34,7 @@ class TestClass:
             assert 1 == 1, "Assertion failed to to unexpected value"
 
     @qase.id(3)
+    @allure.testcase
     @qase.title("Pwd rst")
     def test_pwd_rst(self):
         with qase.step("do this"):
