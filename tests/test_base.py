@@ -4,12 +4,12 @@ from qaseio.pytest import qase
 from steps import TestSteps
 
 
-@allure.suite
+@allure.suite("Authorization")
 @qase.suite("Authorization")
 class TestClass:
 
     @qase.id(1)
-    @allure.testcase
+    @allure.testcase("Authorization test")
     @qase.title("Authorization")
     def test_authorization(self):
         steps = TestSteps()
@@ -19,7 +19,7 @@ class TestClass:
         steps.step_four()
 
     @qase.id(2)
-    @allure.testcase
+    @allure.testcase("Sign up")
     @qase.title("Sign up")
     def test_sign_up(self):
         with qase.step('Open "Sign Up" page: https://qase.io/signup'):
@@ -34,7 +34,7 @@ class TestClass:
             assert 1 == 1, "Assertion failed to to unexpected value"
 
     @qase.id(3)
-    @allure.testcase
+    @allure.testcase("Pwd rst")
     @qase.title("Pwd rst")
     def test_pwd_rst(self):
         with qase.step("do this"):
