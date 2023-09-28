@@ -46,3 +46,15 @@ class TestClass:
             print("complete step 3")
         with qase.step('got this'):
             assert 1 != 1, "failed assertion validation"
+
+    @allure.title("New created scranrio")
+    @qase.title("New created scranrio")
+    def test_new_scenario(self):
+        with qase.step("do this"):
+            print("complete step 1")
+        with qase.step('do that'):
+            print("complete step 2")
+        with qase.step('check it'):
+            print("complete step 3")
+        with qase.step('got this'):
+            assert 1 != 1, "failed assertion validation"
