@@ -9,7 +9,7 @@ from steps import TestSteps
 class TestClass:
 
     @qase.id(1)
-    @allure.testcase("Authorization test")
+    @allure.title("Authorization test")
     @qase.title("Authorization")
     def test_authorization(self):
         steps = TestSteps()
@@ -19,8 +19,9 @@ class TestClass:
         steps.step_four()
 
     @qase.id(2)
-    @allure.testcase("Sign up")
+    @allure.title("Sign up")
     @qase.title("Sign up")
+    @qase.fields(("automation status", "automated"))
     def test_sign_up(self):
         with qase.step('Open "Sign Up" page: https://qase.io/signup'):
             print('Open "Sign Up" page: https://qase.io/signup')
@@ -34,7 +35,7 @@ class TestClass:
             assert 1 == 1, "Assertion failed to to unexpected value"
 
     @qase.id(3)
-    @allure.testcase("Pwd rst")
+    @allure.title("Pwd rst")
     @qase.title("Pwd rst")
     def test_pwd_rst(self):
         with qase.step("do this"):

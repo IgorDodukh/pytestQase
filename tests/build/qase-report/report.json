@@ -1,10 +1,10 @@
 {
     "title": "Test run",
     "execution": {
-        "start_time": 1695725351.017192,
-        "end_time": 1695725351.0633018,
-        "duration": 46,
-        "cumulative_duration": 25
+        "start_time": 1695898179.929756,
+        "end_time": 1695898179.969671,
+        "duration": 39,
+        "cumulative_duration": 23
     },
     "stats": {
         "passed": 2,
@@ -16,37 +16,37 @@
     },
     "results": [
         {
-            "id": "7afb26d8-6b7a-4492-95d6-9f5f203488a2",
+            "id": "a3660b03-b2da-48fc-b962-f124dea50c2c",
             "title": "Pwd rst",
             "status": "failed",
-            "duration": 24,
-            "thread": "67914-MainThread"
+            "duration": 20,
+            "thread": "12104-MainThread"
         },
         {
-            "id": "efed0edf-7f4d-40f6-bd58-b3ef7a843083",
-            "title": "Sign up",
-            "status": "passed",
-            "duration": 0,
-            "thread": "67914-MainThread"
-        },
-        {
-            "id": "836bde61-fc40-4dfb-be05-8c95e251408c",
+            "id": "9daedb22-15ef-4c92-a3de-f0625edbb36f",
             "title": "Authorization",
             "status": "passed",
+            "duration": 2,
+            "thread": "12104-MainThread"
+        },
+        {
+            "id": "5a8183c9-65e6-4970-8f47-84283d115748",
+            "title": "Sign up",
+            "status": "passed",
             "duration": 1,
-            "thread": "67914-MainThread"
+            "thread": "12104-MainThread"
         }
     ],
     "threads": [
-        "67914-MainThread"
+        "12104-MainThread"
     ],
     "suites": [],
     "environment": null,
     "host_data": {
         "system": "Darwin",
         "node": "MacBook-Pro.local",
-        "release": "22.6.0",
-        "version": "Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103",
+        "release": "23.0.0",
+        "version": "Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103",
         "machine": "arm64",
         "python": "3.10.5.final.0",
         "pip": "23.1.2"
