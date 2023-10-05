@@ -11,6 +11,7 @@ class TestClass:
     @qase.id(1)
     @allure.title("Authorization test")
     @qase.title("Authorization")
+    @qase.author("Some Username")
     def test_authorization(self):
         steps = TestSteps()
         steps.step_one()
