@@ -39,7 +39,7 @@ pipeline {
                     --source "unit-tests" \
                     --resources resources.json \
                     --results results/*.xml \
-                    -- npm run mocha-junit # Note space after --
+                    -- python3 -m pytest tests --alluredir=../allure_results --junitxml=results/test-results.xml
                 '''
             }
         }
