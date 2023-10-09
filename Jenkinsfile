@@ -1,7 +1,4 @@
 pipeline {
-    agent {
-        docker { image 'node' }
-    }
     environment {
         TESTMO_URL = "${TESTMO_URL_PARAM}"
         TESTMO_TOKEN = "${TESTMO_TOKEN_PARAM}"
