@@ -3,8 +3,8 @@ pipeline {
         docker { image 'node' }
     }
     environment {
-        TESTMO_URL = https://ihordoo.testmo.net/
-        TESTMO_TOKEN = testmo_api_eyJpdiI6IjN6TzMzMy9HZTl0ayt0M0l1M2lwOFE9PSIsInZhbHVlIjoiNkxqZ1JiSEdYL0RUVUNHWFVOdUhPSXdjTzhOSFVlOWl0NGVHYS92eU4xWT0iLCJtYWMiOiI2ODg1N2UwNmEzMWZkYmM0M2Q5ZmVkMTcyOGQ5NzhiN2IyOGExZTEzMTVjMzNhYTY0YTY5MDNjZmJkOWQ1ZTgxIiwidGFnIjoiIn0=
+        TESTMO_URL = "${TESTMO_URL_PARAM}"
+        TESTMO_TOKEN = "${TESTMO_TOKEN_PARAM}"
     }
     stages {
         stage('Build') {
