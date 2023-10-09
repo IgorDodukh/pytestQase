@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs "default"}
+    tools {nodejs "20.8.0"}
     environment {
         TESTMO_URL = "${TESTMO_URL_PARAM}"
         TESTMO_TOKEN = "${TESTMO_TOKEN_PARAM}"
