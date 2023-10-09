@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs '20.8.0'
+        nodejs "nodejspkg"
     }
     environment {
         TESTMO_URL = "${TESTMO_URL_PARAM}"
