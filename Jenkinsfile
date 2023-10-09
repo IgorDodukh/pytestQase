@@ -1,10 +1,10 @@
 pipeline {
     agent any
+    tools {nodejs "default"}
     environment {
         TESTMO_URL = "${TESTMO_URL_PARAM}"
         TESTMO_TOKEN = "${TESTMO_TOKEN_PARAM}"
     }
-
     stages {
         stage('Build') {
             steps {
