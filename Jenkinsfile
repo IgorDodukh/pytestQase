@@ -4,7 +4,7 @@ pipeline {
         TESTMO_URL = "${TESTMO_URL_PARAM}"
         TESTMO_TOKEN = "${TESTMO_TOKEN_PARAM}"
     }
-    tools {nodejs "default"}
+
     stages {
         stage('Build') {
             steps {
