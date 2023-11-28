@@ -13,12 +13,13 @@
 	"testops": {
 		"bulk": true,
 		"api": {
-			"token": "ca8d8ee1ca721815e3cc12849adc549563875e975efb74431c623386b4025046",
+			"token": "72e77ea8cdad73a85aa4d3b432c87a83a4eb896be3f54d18e4a73c00a3fa9b6c",
 			"host": "qase.io"
 		},
-        "plan": {
-            "id": 3
-        },
+		"run": {
+			"title": "Test run title",
+			"complete": true
+		},
 		"defect": true,
 		"project": "DEMMO",
 		"chunk": 200
@@ -31,5 +32,5 @@
 			}
 		}
 	},
-	"environment": "staging"
+	"environment": "local"
 }

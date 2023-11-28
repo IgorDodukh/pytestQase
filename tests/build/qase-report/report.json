@@ -1,44 +1,51 @@
 {
     "title": "Test run",
     "execution": {
-        "start_time": 1695898179.929756,
-        "end_time": 1695898179.969671,
-        "duration": 39,
-        "cumulative_duration": 23
+        "start_time": 1696498730.051308,
+        "end_time": 1696498730.095532,
+        "duration": 44,
+        "cumulative_duration": 25
     },
     "stats": {
         "passed": 2,
-        "failed": 1,
+        "failed": 2,
         "skipped": 0,
         "broken": 0,
         "muted": 0,
-        "total": 3
+        "total": 4
     },
     "results": [
         {
-            "id": "a3660b03-b2da-48fc-b962-f124dea50c2c",
-            "title": "Pwd rst",
-            "status": "failed",
-            "duration": 20,
-            "thread": "12104-MainThread"
+            "id": "d8d568e5-02a8-47bd-8a72-c95e6d2c5345",
+            "title": "Sign up",
+            "status": "passed",
+            "duration": 0,
+            "thread": "24380-MainThread"
         },
         {
-            "id": "9daedb22-15ef-4c92-a3de-f0625edbb36f",
+            "id": "1ddf65d5-db66-46bf-b8f8-34b004999740",
+            "title": "Pwd rst",
+            "status": "failed",
+            "duration": 21,
+            "thread": "24380-MainThread"
+        },
+        {
+            "id": "7b2b2591-4d9f-4de1-9e33-a4cf5c3a3740",
             "title": "Authorization",
             "status": "passed",
             "duration": 2,
-            "thread": "12104-MainThread"
+            "thread": "24380-MainThread"
         },
         {
-            "id": "5a8183c9-65e6-4970-8f47-84283d115748",
-            "title": "Sign up",
-            "status": "passed",
-            "duration": 1,
-            "thread": "12104-MainThread"
+            "id": "e3dc2f51-c285-47d8-bb53-2baafb0c10f8",
+            "title": "New created scranrio",
+            "status": "failed",
+            "duration": 2,
+            "thread": "24380-MainThread"
         }
     ],
     "threads": [
-        "12104-MainThread"
+        "24380-MainThread"
     ],
     "suites": [],
     "environment": null,
